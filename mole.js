@@ -1,4 +1,4 @@
-
+let currMoleTile;
 
 window.onload = function() {
     setGame();
@@ -13,5 +13,12 @@ function setGame() {
         document.getElementById("board").appendChild(tile);
 
         }
+}
+
+function setMole() {
+    let mole = document.createElement("img");
+    mole.src = "./monty-mole.png";
+    
+
 }
 
